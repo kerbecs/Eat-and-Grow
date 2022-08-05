@@ -7,4 +7,5 @@ Eat and Drow is my first project. It's just an attempt to create my first big pr
 
 You can play this game, you can even edit the code, if you want, this is an open project.
 Anyway, selling this game or using in it in commercial purposes is prohibited.
+It wasn't created in these purposes.
 Have Fun!
