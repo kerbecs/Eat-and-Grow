@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------------------
+                             Eat and Grow  [Version I]
+------------------------------------------------------------------------------------------
+
+1. The game opens a window:
+- the window has a 1520x800 size
+- the background's color is white
+- it's title is Eat and Grow
+- on the background there are some circles
+- in the center there are a play button and an exit button
+- when we click on the exit buttom, the window closes
+
+Both buttons have similar atributes:
+- they are elipses
+- they have a 180x90 size
+- their color is red
+- on the center of buttom it's ridden "Play" and "Exit"
+- the text has a 25 size
+- the text is white
+- the text is in Bold and has Verdana font family
+- when the mouse touches the buttons, they change the color in (158,6,6)
