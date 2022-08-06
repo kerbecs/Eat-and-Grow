@@ -1,6 +1,6 @@
 Eat and Grow is a simple Game created by Mititiuc Eduard. It was finished in August 2022. 
 The game's version is 1.0.1 Beta
-This is the first version of the entire game.
+This is the second version of the entire game.
 
 The idea of the game is not mine. It was inspired from Agario, a game you can find here:
 https://agar.io/#ffa
