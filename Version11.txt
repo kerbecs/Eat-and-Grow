@@ -1,0 +1,146 @@
+------------------------------------------------------------------------------------------
+                             Eat and Grow  [Version VIII]
+------------------------------------------------------------------------------------------
+
+1. The game opens a window:
+- the window has a size of (Width of screen) x (Height of screen)*0.92 
+- the background's color is white
+- it's title is Eat and Grow
+- on the background there are some circles
+- in the center there are a play button and an exit button
+- when we click on the exit buttom, the window closes
+- down,in the center, there is a text "Created by Mititiuc Eduard", which has a
+  30 font size, Jokerman font,Bold and (51,51,255) color.
+
+2. On the lower right corner there is a background change color button
+-  it's an elipse
+-  it has a red color (235, 12, 12)
+-  it has a 90x45 size
+-  on the center it's ridden Color
+-  the text has a 17 size
+-  the text is white
+-  the text is in Bold and has Verdana font family
+-  when the mouse touches the button, it changes the color in (158,6,6)
+-  when the mouse click the button, the background color of the window change 
+
+3. Under the change color button there is a square with the new color
+- it has a 40x40 size
+- it's color is white or gray
+- then we click on the change color button, it's color change in white or gray
+
+4. A title is above the play and exit buttons: 
+- the text is : "Eat and Grow"
+- it has a 130 size
+- its font is Jokerman and it's in Bold
+- it's color is (247,255,0)
+- it's on a Surface
+
+5. On left down there is a text "Version 1.x.x Beta"
+- the text has Verdana Font
+- it has 20 size
+- it's color is (51,51,255)
+- it's in Italic
+
+6. Then the player clicks on play buttom, the game start
+- the old window is cleared
+- in center there is a circle
+- the circle has 25 size
+- the color is rondom
+- the background color is the color chosed for the menu background
+- the player's button moves after the mouse
+- it moves with a speed (1,1)
+- in its center there is a text " ME "
+- the text has Verdana font, size 15 and Bold
+- the text grows and vice versa with the player's circle
+
+7. The player's circle move after the mouse 
+
+8. On the window, multiple static circles are spawning
+- there can't be more than 40 static circles on the window
+
+9. Then the player's circle cover entirely a static circle, the static circle
+dissapears and the player's circle growns
+- the player's circle grows with the same surface the static circle which was eaten had
+
+10. There are some dangerous circles on the window
+- if the player's circle touches them, it loses in size
+
+11. There are some dinamyc circles on the window
+- if the dynamic circles eat the player's circle, the game ends
+
+12. In the player's circle, there is a scoreboard which shows the player's circle size
+- the text has 15 size
+- its color is aqua
+- its font is Jokerman
+- it's in bold
+- it's below the first text
+
+Both buttons have similar atributes:
+- they are elipses
+- they are on a surface
+- they have a 180x90 size
+- their color is red
+- on the center of buttom it's ridden "Play" and "Exit"
+- the text has a 25 size
+- the text is white
+- the text is in Bold and has Verdana font family
+- when the mouse touches the buttons, they change the color in (158,6,6)
+
+All the circles on the background have similar atributes:
+- they can have a random color (red,green,yellow,purple,black,brown)
+- their size is betwen 20 and 60
+- their location is random
+- they can be betwen 6 - 11
+- they are moving straight 
+- they are moving randomly
+- they can't appear over a button or the color square
+- then a circle touches a corner, it rebounds
+- then 2 circles touche each over, they rebound
+- they can't be spawned at a distance of at least 20
+
+All the multiple static circles have similar atributes:
+- their size is betwen (10-20)
+- their color can be (red,green,yellow)
+- they don't move, just are staying
+- they can't appear over the player's circle
+- they can't appear on a distance of 50 of the player's circle
+- they can't appear each over other 
+- they appears a distance of 20 from the borders
+- they are spawning randomly
+- every 3 second, a new circle is spawned
+
+All the dangerous circles have similar atributes:
+- their size is 20
+- their color is black
+- they don't move, they are just staying
+- they can't appear over the player's circle
+- they can't appear on a distance of 100 of the player's circle
+- they can't appear on a distance of 100 each from other
+- they appear's a distance of 20 from the borders
+- they can't appear over the static circles
+- they can't appear on a distance of 25 from the static circles
+- every 17 second, a new circle is spawned
+- after 28 second, a dangerous circle is deleted randomly if they are at least 7
+- they are spawning randomly
+- they can't be more than 10
+- they can decrease the size of the player's circle betwen (20%-70%), but the size of player's circle cant be less than 25
+- in their centre, there is a text wich display the number of percentes they decrease the player's circle. The size of text is
+  13, the font is Verdana and the color is white
+- if the player circle touches them with 10 pixels, it loses in size
+
+All dynamic circles have similar atributes:
+- they can have an initial size betwen (30-110)
+- their color can be (blue, brown, purple)
+- they move with a speed ([0.4-1],[0.4-1]).
+- if they touch a corner, they rebound
+- one circle is spawned every 15 seconds
+- one circle is deleted after 30 seconds is there are at least 4 
+- they can appear at least at a distance of 50 from the player's circle
+- they can be spawned at a distance of 50 from each over
+- they can't be more than 8
+- they appear's a distance of 10 from the borders
+- when they are at least 5, one circle is deleted every 30 seconds
+- they can grow to if they eat a circle
+- they can lose weight as well
+- if they touch the player circle half, the game ends after 3 seconds and the player is kicked in the menu again
+- every 6 seconds, a random circle change its speed direction
