@@ -9,7 +9,7 @@ As it was created only by one person, me, I'm sorry for all the possible bugs I 
 The game is still in development.
 Eat and Drow is my first project. It's just an attempt to create my first big project.
 
-You can play this game, you can even edit the code or use a parts of it in your projetcs, if you want, this is an open project.
+You can play this game, you can even edit the code or use parts of it in your projetcs, if you want, this is an open project.
 Anyway, selling this game or some parts of code or using them in commercial purposes is prohibited.
 It wasn't created in these purposes.
 Have Fun!
