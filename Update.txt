@@ -1,0 +1,6 @@
+- The game was optimized for more resolutios
+- The mouse control was improved
+- Some bugs of mouse control were fixed
+- The player's cercle doesn't get stuck when the mouse is in its center any more
+- If the mouse is outside the window, the player's circle doesn't get stuck anymore
+- The bug with player's circle speed was fixed
