@@ -1,5 +1,5 @@
 Eat and Grow is a simple Game created by Mititiuc Eduard. It was finished in August 2022. 
-The game's version is 1.0.0 Beta
+The game's version is 1.0.1 Beta
 This is the first version of the entire game.
 As it was created only by one person, me, I'm sorry for all the possible bugs I couldn't solve yet.
 The game is still in development.
