@@ -1,0 +1,3 @@
+- The text from the player's circle was adapted for different resolutions
+- The dynamic circles can't touch the player's circle any more then they ared spawned
+- Different dimensions were updated. 
